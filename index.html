@@ -11,9 +11,9 @@
 </head>
 
 <body class="bg-black overflow-x-hidden">
-    <div class=" container flex min-h-[100vh] min-w-[100vw] px-28 justify-center ">
+    <div class="container flex ml-11 min-h-[100vh] w-[100vw] md:px-28 justify-center ">
 
-        <div style="margin-top: 16px;" class="first xl:w-[306px] px-2 ">
+        <div style="margin-top: 16px;" class="first xl:w-[306px] px-2 sticky top-0">
 
             <div style="position: sticky; top: 16px;" class="sidebar flex flex-col md:items-end">
                 <ul class="text-white flex flex-col gap-3 text-xl ">
@@ -125,8 +125,11 @@
                         </svg>
                         <span class="font-bold hidden xl:block">More</span>
                     </li>
-                    <li>
-                        <button class="bg-[#1d9bf0] w-[210px] h-12 rounded-full hidden xl:block">Post</button>
+                    <li class=" flex items-center bg-blue-500 hover:bg-slate-600 hover:cursor-pointer w-fit px-[10px] py-[5px] gap-1 rounded-full">
+                        <button class="bg-[#1d9bf0] xl:w-[210px] xl:h-12 rounded-full hidden xl:block">Post</button>
+                        <span class="material-symbols-outlined xl:hidden">
+                            draw
+                        </span>
                     </li>
                 </ul>
             </div>
@@ -137,7 +140,7 @@
 
 
 
-        <div class="second sm:w-[700px] border-[1px] border-y-0 text-white">
+        <div class="second w-[110vw] md:w-[700px] border-[1px] border-y-0 text-white bg-red-500">
 
             <div class=" nav flex h-16 sticky top-0 bg-black">
                 <span
@@ -149,8 +152,7 @@
 
             <hr>
 
-            <div class="what's_happening flex gap-2 "
-                style="padding-left: 24px; padding-top: 24px; padding-bottom: 19px;">
+            <div class="what's_happening flex gap-2 pl-2 pt-2 pb-2 sm:pl-6 sm:pt-6 sm:pb-5">
                 <div class="image">
                     <img src="me(sitting).jpg" alt="" class=" w-11 rounded-full">
                 </div>
@@ -220,8 +222,8 @@
 
             <div class="post-with-text">
 
-                <div class="flex justify-between"
-                    style="justify-content: space-between; padding-left: 24px; padding-right: 24px; padding-top: 24px; padding-bottom: 10px;">
+                <div class="flex justify-between px-2 pt-2 pb-2 md:px-6 md:pt-6 md:pb-3 ">
+
                     <div class="flex gap-2 items-start">
                         <div class="image">
                             <img src="me(sitting).jpg" alt="" class=" w-11 rounded-full">
@@ -229,8 +231,7 @@
 
                         <div class="flex flex-col gap-1">
                             <div class="acc flex gap-1 ">
-                                <p class="font-extrabold">Anurag Ganguly</p>
-
+                                <p class="font-normal md:font-extrabold">Anurag Ganguly</p>
 
                                 <span class=" material-symbols-outlined text-blue-500">
                                     verified
@@ -251,15 +252,13 @@
                                 </svg>
                                 <p class="text-gray-400">@anurag83 · Jul 14</p>
 
-
-
                             </div>
 
                             <p class="text-sm">Last time America had a candidate this tough was Theodore Roosevelt</p>
                         </div>
                     </div>
 
-                    <div class="flex w-fit font-bold text-gray-400">
+                    <div class="flex w-fit font-semibold text-gray-400">
                         · · ·
                     </div>
 
